@@ -1,0 +1,63 @@
+html body{
+    box-sizing: border-box;
+    background: rgb(249, 245, 234);
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+.container{
+    height: 75%;
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 5%;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px gray;
+    background: linear-gradient(rgb(230, 141, 244), white, rgb(245, 249, 231), white, rgb(138, 242, 235));
+}
+
+.input-section{
+    /* margin-left: 2rem; */
+    margin-top: 1rem;
+    gap: .7rem;
+}
+
+.todo-input{
+    flex-basis: 60%;
+}
+
+#todo-data{
+    margin-top: 1.5rem;
+}
+
+.list-todo-heading{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    padding-bottom: .8rem;
+}
+
+.todo-no{
+    flex-basis: 3%;
+}
+
+.todo-detail{
+    flex-basis: 50%;
+}
+
+.todo-status{
+    flex-basis: 13%;
+}
+
+.todo-actions{
+    flex-basis:15%;
+}
+
+.todo-actions button{
+
+}
+
+.todo-item{
+    /* font-size: 1.3rem; */
+    /* margin-bottom: 1rem; */
+}
